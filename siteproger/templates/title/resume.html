@@ -1,0 +1,531 @@
+{% extends 'base.html' %}
+
+{% block title %} Последнии статьи {% endblock %}
+
+{% block content %}
+
+	<div class="col-9 col-lg-9 col-md-9 mx-auto ">
+
+  <!-- шапка -->
+  <header class="d-flex align-items-center pb-3 mb-5"> 
+
+    <div class="container-xxl">
+
+      <div class="row align-items-start"> 
+
+        <div class="col d-none d-sm-block"></div>
+
+        <div class="col-md-6 ">
+          <span class="logo fs-1">
+            <p class="logo_title fs-5">Резюме программиста</p>
+            Кукольщиков Егор Андреевич
+          </span>
+        </div>
+
+        <div class="col align-baseline d-sm-block order-first order-sm-last ">
+          <div class="row justify-content-center">
+            <svg class="" width="94" height="108" viewBox="0 0 94 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="94" height="108" fill="url(#paint0_linear)"/>
+              <path d="M63 34H31C28.8 34 27 35.8 27 38V74L35 66H63C65.2 66 67 64.2 67 62V38C67 35.8 65.2 34 63 34ZM63 62H35L31 66V38H63V62Z" fill="white"/>
+              <defs>
+              <linearGradient id="paint0_linear" x1="-9" y1="8.5" x2="111.5" y2="108" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FF002E"/>
+              <stop offset="0.993083" stop-color="#FF0097"/>
+              </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </header>
+  <!-- шапка -->
+
+  <main>
+
+    <div class="col-9 mx-auto">      
+        <img src="/static/images/bot-coder.png" class="rounded mx-auto d-block" alt="бот-кодер">
+    </div>
+
+    
+    <div class="row row-cols-3 specifications" data-masonry='{ "percentPosition": true }'>
+      <!-- Связь -->
+      <div class="col contact">
+        <h3>Связь</h3>
+        <p>+7 953 163 83 78</p>
+        <p>egor@larding.ru</p>
+        <p><a href="https://github.com/ZOrtanin">https://github.com/ZOrtanin</a></p>
+      </div>
+
+      <!-- Скилы -->
+      <div class="col skills">
+        <h3>Скилы</h3>
+        <ul>
+          <li>Python():<span class="procent">10%</span>
+            <ul>
+              <li>Kivy<span class="procent">10%</span></li>
+              <li>Django<span class="procent">0%</span></li>
+              <li>Telebot<span class="procent">40%</span></li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>PHP:<span class="procent">10%</span>
+            <ul>
+              <li>Laravel<span class="procent">10%</span></li>
+              <li>WordPress<span class="procent">30%</span></li>             
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>Js:<span class="procent">10%</span>
+            <ul>
+              <li>Veu<span class="procent">0%</span></li>
+              <li>Bootstrap<span class="procent">10%</span></li>
+              <li>jQuery<span class="procent">20%</span></li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>C++:<span class="procent">5%</span>
+            <ul>
+              <li>Arduino ( Processing )<span class="procent">10%</span></li>
+            </ul>           
+          </li>
+        </ul>
+        <ul>
+          <li>c(си)<span class="procent">10%</span></li>
+          <li>Processing<span class="procent">10%</span></li>
+          <li>ActionScript3 =)<span class="procent">20%</span></li>
+        </ul>
+        <ul>
+          <li>MySQL<span class="procent">20%</span></li>
+          <li>Doker<span class="procent">0%</span></li>
+        </ul>
+        <ul>
+          <li>Godot<span class="procent">20%</span></li>
+        </ul>
+        <ul>
+          <li>Html<span class="procent">30%</span></li>
+          <li>css<span class="procent">20%</span></li>
+          <li>sass<span class="procent">10%</span></li>
+        </ul>
+        <ul>
+          <li>GitHub<span class="procent">0%</span></li>
+        </ul>
+        <ul>
+          <li>Sublime Text<span class="procent">10%</span></li>
+        </ul>
+        <ul>
+          <li>MacOs<span class="procent">10%</span></li>
+          <li>Linux<span class="procent">5%</span></li>
+        </ul>
+      </div>
+
+      <!-- Инфо -->
+      <div class="col info">
+        <h3>Инфо</h3>
+        <ul>
+          <li>
+            Город: 
+            <ul>
+              <li>Санкт-Петербург</li>
+            </ul>            
+          </li>
+          <li>
+            Дата рождения: 
+            <ul>
+              <li>15 февраля 1987 ( 34 )</li>
+            </ul>             
+          </li>
+          <li>
+            Желаемая зарплата:
+            <ul>
+              <li>от 100 000 рублей</li>
+            </ul>              
+          </li>
+          <li>
+            Занятость: 
+            <ul>
+              <li>Полная занятость</li>
+            </ul>              
+          </li>
+          <li>
+            График работы: 
+            <ul>
+              <li>Полный день</li>
+            </ul>              
+          </li>
+          <li>
+            Тип: 
+            <ul>
+              <li>Удаленный ( временно )
+             в последствии офис</li>
+            </ul>             
+          </li>
+          <li>
+            Оброзование:
+            <ul>
+              <li>2009 Высшее (Бакалавр) 
+            СГА Менеджмент, Менеджер</li>
+            </ul>             
+          </li>
+          <li>
+            Знание языков
+            <ul>
+              <li>Русский — Родной</li>
+              <li>Английский — A1 — Начальный</li>
+            </ul> 
+          </li>
+          <li>
+            Повышение квалификации, курсы:
+            <ul>
+              <li>2004
+            Программирование
+            УВИСТ, свидетельство</li>
+            </ul>             
+          </li>
+          <li>
+            Гражданство: 
+            <ul>
+              <li>Россия</li>
+            </ul>            
+          </li>          
+        </ul>         
+      </div>
+
+      <!-- Проекты -->
+      <div class="col projects">
+        <h3>Проекты</h3>
+        <ul>
+          <li><a href="#Tasker">Tasker</a></li>
+          <li><a href=""> Botcode</a></li>
+          <li><a href="">Larding</a></li>
+          <li><a href="">Spaceman</a></li>
+          <li><a href="">artBurn</a></li>
+          <li><a href="">Finger line</a></li>
+          <li><a href="">Passgen</a></li>
+        </ul>        
+      </div>
+
+      <!-- Принцепы -->
+      <div class='col'>
+        <h3>Принцепы</h3>
+        <ul>
+          <li>pep8</li>
+          <li>SOLID</li>
+          <li>DRY</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row allskils">
+      Godot, Web Design,Adobe Illustrator,Adobe Photoshop,3D-графика,Autodesk 3ds Max,Дизайн,CSS,jQuery,PHP,CMS Wordpress,Adobe Flash,HTML,Bootstrap,Adobe InDesign,JavaScript,Web-дизайн,Adobe Flash Professional,Ретушь,3D Моделирование,Flash Actionscript,Прототипирование,Рисунок,ZBrush
+    </div>
+
+    
+  </main>
+</div>
+
+<div class="row space">
+  <div class="col-4"><hr></div>
+  <div class="col">
+    <center>
+      <a href="../examples/" class="btn btn-danger btn-lg px-4 button">Пригласить на собеседование</a>
+    </center>
+  </div>
+  <div class="col-4"><hr></div>
+</div>
+<div class="col-9 col-lg-9 col-md-9 mx-auto ">
+  <main>
+    <div class="row ">
+      
+      
+    </div>
+    <figure class="text-center about">
+      <blockquote class="blockquote">
+        <h2>Пару слов от себя</h2>
+        <p>
+          10 лет своей жизни отдал дизайну, увидев проблему с развитием дизайна как индустрии и как личный тормаз в развиитии. Решил поменять род деятельности…  Верменами кодил для себя и на фриланс и долго перед выбором не стоял вопрос. Так как вижу перспективу в развити и что самое главное, я прям тащусь от кода!
+        </p>
+      </blockquote>
+      
+    </figure>
+
+    <!-- Tasker -->
+    <div class="row mt-25 projects">
+      <div class="col pt-5">
+        <h2>Tasker <span class="like float-end"><a href="#">24 <i class="bi bi-star"></i></a></span></h2>
+
+        <div class="description_project">
+          <p>
+          Групповой планировщик задач, ежедневный помошник по планированию и распределению рабочего времени, а также просто незаменимая вещь для всех, кому не чужд перфекционизм.
+          А что такое планирование времени?
+          Планирование времени и планирование дел позволяют нам управлять своей жизнью, находить время для того, что действительно важно, и заниматься только тем, что приносит настоящее удовольствие, отсекая все лишнее, ненужное и второстепенное.
+          </p>
+        </div>
+        <div class="link_project">
+          <h3 class="mb-0">Ссылки:</h3>
+          <p><a href="#">http://tasker.larding.ru</a></p>
+        </div>
+        <div class="tec_project">
+          <h3 class="mb-0">Технологии:</h3>
+          <p>Php, Laravel, Bootstrap, Python, Kivy, MySQL </p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="/static/images/iphone.png" class="img-fluid mx-auto d-block" alt="tasker">
+      </div>
+    </div>
+
+    <!-- Боткодер -->
+    <div class="row mt-25 projects">
+      <div class="col">
+        <img src="/static/images/bot-coder2.png" class="img-fluid mx-auto d-block" alt="tasker">
+      </div>
+      <div class="col pt-5">
+        <h2>Botcode <span class="like float-end"><a href="#">0 <i class="bi bi-star"></i></a></span></h2>
+
+        <div class="description_project">
+          <p>
+          Телеграмм бот для презентации программного кода в чатах… Идея пришла из проекта carbon. Это очень удобно для того, чтобы показать пользователям только нужную часть кода... Но на самом деле я хотел сделать для удобства тех, кто читает код в чатах и помогает с решением возникшей проблемы.
+          </p>
+        </div>
+        <div class="link_project">
+          <h3 class="mb-0">Ссылки:</h3>
+          <p><a href="#">@coder_viwer_bot</a></p>
+        </div>
+        <div class="tec_project">
+          <h3 class="mb-0">Технологии:</h3>
+          <p>Python, Telebot, pygments </p>
+        </div>
+      </div>      
+    </div>
+
+    <!-- Larding -->
+    <div class="row mt-25 projects">
+      <div class="col pt-5">
+        <h2>Larding <span class="like float-end"><a href="#">0 <i class="bi bi-star"></i></a></span></h2>
+
+        <div class="description_project">
+          <p>
+          CMS блочный конструктор сайтов, не требующий навыков программирования. Позволяет создавать сайты, интернет-магазины, посадочные страницы, блоги и email-рассылки. Сайты на платформе собираются из готовых блоков...
+          </p>
+        </div>
+        <div class="link_project">
+          <h3 class="mb-0">Ссылки:</h3>
+          <p><a href="#">http://larding.ru</a></p>
+        </div>
+        <div class="tec_project">
+          <h3 class="mb-0">Технологии:</h3>
+          <p>Php, JS, Laravel, Bootstrap, MySQL  </p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="/static/images/larding-sc.png" class="img-fluid mx-auto d-block" alt="tasker">
+      </div>
+    </div>
+
+    <!-- Космонавт -->
+    <div class="row mt-25 projects">
+      <div class="col">
+        <img src="/static/images/fly.png" class="img-fluid mx-auto d-block" alt="tasker">
+      </div>
+      <div class="col pt-5">
+        <h2>SpaceMan <span class="like float-end"><a href="#">0 <i class="bi bi-star"></i></a></span></h2>
+
+        <div class="description_project">
+          <p>
+          Игра-платформер для мобильных устройств, разработанная, на перспективу игрок с помощью касаний экрана должен контролировать полёт персонажа между летающими астероидами, не задевая их. Была реализована на платформе Android.
+          </p>
+        </div>
+        <div class="link_project">
+          <h3 class="mb-0">Ссылки:</h3>
+          <p><a href="#">Godot</a></p>
+        </div>
+        <div class="tec_project">
+          <h3 class="mb-0">Технологии:</h3>
+          <p>Godot</p>
+        </div>
+      </div>      
+    </div>
+
+    <!-- Artburn -->
+    <div class="row mt-25 projects">
+      <div class="col pt-5">
+        <h2>Artburn <span class="like float-end"><a href="#">0 <i class="bi bi-star"></i></a></span></h2>
+
+        <div class="description_project">
+          <p>
+          Ресурс нацелен CG художников для поиска работы в странах СНГ вдохновления и выкладки портфолио… 
+          </p>
+        </div>
+        <div class="link_project">
+          <h3 class="mb-0">Ссылки:</h3>
+          <p><a href="#">http://artburn.ru</a></p>
+        </div>
+        <div class="tec_project">
+          <h3 class="mb-0">Технологии:</h3>
+          <p> Python, Django, JS, Vue, MySQL   </p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="/static/images/art_burn.png" class="img-fluid mx-auto d-block" alt="tasker">
+      </div>
+    </div>
+
+    <!-- Fingerline -->
+    <div class="row mt-25 projects">
+      <div class="col">
+        <img src="/static/images/fingerline.png" class="img-fluid mx-auto d-block" alt="tasker">
+      </div>
+      <div class="col pt-5">
+        <h2>Finger Line <span class="like float-end"><a href="#">0 <i class="bi bi-star"></i></a></span></h2>
+
+        <div class="description_project">
+          <p>
+          Игра-платформер для мобильных устройств, разработанная, на давно уже почившем ActionScript3. Цель игры бежать по дисплэю смартфона и собирать бонусы…
+          </p>
+        </div>
+        <div class="link_project">
+          <h3 class="mb-0">Ссылки:</h3>
+          <p><a href="#">Finger Line</a></p>
+        </div>
+        <div class="tec_project">
+          <h3 class="mb-0">Технологии:</h3>
+          <p>Action Script 3</p>
+        </div>
+      </div>      
+    </div>
+
+    <!-- Passgen -->
+    <div class="row mt-25 projects">
+      <div class="col pt-5">
+        <h2>Passgen <span class="like float-end"><a href="#">0 <i class="bi bi-star"></i></a></span></h2>
+
+        <div class="description_project">
+          <p>
+          Разработка гаджета (брелка) для хранения паролей. Оффлайновый пасворд менеджер =) 
+          </p>
+        </div>
+        <div class="link_project">
+          <h3 class="mb-0">Ссылки:</h3>
+          <p><a href="#">http://artburn.ru</a></p>
+        </div>
+        <div class="tec_project">
+          <h3 class="mb-0">Технологии:</h3>
+          <p>c++, arduino </p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="/static/images/passgen.png" class="img-fluid mx-auto d-block" alt="tasker">
+      </div>
+    </div>
+
+      </main>
+</div>
+
+<div class="row space">
+  <div class="col-4"><hr></div>
+  <div class="col">
+    <center>
+      <a href="../examples/" class="btn btn-danger btn-lg px-4 button">Пригласить на собеседование</a>
+    </center>
+  </div>
+  <div class="col-4"><hr></div>
+</div>
+<div class="col-9 col-lg-9 col-md-9 mx-auto ">
+  <main>
+
+    <div class="row text-center">
+      <h2>Опыт</h2>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-2">
+        <p>Июль 2016 — Декабрь 2016</p>
+        <p>6 месяцев</p>
+      </div>
+      <div class="col-10">
+        <p>RealWeb, Интернет-агентство</p>
+        <p>Санкт-Петербург, www.realweb.ru</p>
+        <p>Информационные технологии, системная интеграция, интернет</p>
+        <p>Интернет-компания (поисковики, платежные системы, соц.сети, информационно-познавательные и развлекательные ресурсы, продвижение сайтов и прочее)
+        Разработка программного обеспечения</p>
+        <p>СМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование</p>
+        <p>Маркетинговые, рекламные, BTL, дизайнерские, Event-, PR-агентства, организация выставок</p>
+        <p>Web-дизайнер
+          <ul>
+            <li>Разработка макетов сайтов на основе прототипов и без них;</li>
+            <li>Создание HTML5 анимации, создание баннеров;</li>
+            <li>Обработка фотографий (ретушь, цветокоррекция, работа со слоями);</li>
+            <li>Разработка прототипов сайтов в Axure;</li>
+            <li>Material design</li>            
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-2">
+        <p>Июль 2011 — Июнь 2014</p>
+        <p>3 года</p>
+      </div>
+      <div class="col-10">
+        <p>Санкт-Петербург, exclusive.megagroup.ru</p>
+        <p>Маркетинговые, рекламные, BTL, дизайнерские, Event-, PR-агентства, организация выставок</p>
+        <p>Web-дизайнер</p>
+        <p>Должностные обязанности и достижения:
+        Создание и контроль - кретив, web-дизайн, баннеры, flash-анимация, полиграфия, презентации, и т.д.. Рисунок от руки, создание рекламы от идеи до готового продукта. Поиск и разработка графических решений и иллюстраций для рекламных материалов. Создание пользовательских интерфейсов для web и мобильных приложений. Внедрение прототипирования в рабочий процесс</p>
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-2">
+        <p>Май 2008 — Май 2009</p>
+        <p>1 год 1 месяц</p>
+      </div>
+      <div class="col-10">
+        <p>vosemvosem.com</p>
+        <p>Маркетинговые, рекламные, BTL, дизайнерские, Event-, PR-агентства, организация выставок</p>
+        <p>Дизайнер
+          <ul>
+            <li>Разработка макетов сайтов на основе прототипов и без них;</li>
+            <li>Создание Gif-анимации, создание баннеров;</li>
+            <li>Разработка Flash слайдеров и банеров;</li>
+            <li>Обработка фотографий (ретушь, цветокоррекция, работа со слоями);</li>
+            <li>Полиграфия ( Визитки, бланки, папки ... )</li>            
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-2">
+        <p>Июль 2016 — Декабрь 2016</p>
+        <p>6 месяцев</p>
+      </div>
+      <div class="col-10">
+        <p>Ухтинский государственный технически университет</p>
+        <p>Программист (дизайнер)
+          <ul>
+            <li>Разработка макетов сайтов на основе прототипов и без них;</li>
+            <li>Создание Gif-анимации, создание баннеров;</li>
+            <li>Разработка Flash слайдеров и банеров;</li>
+            <li>Обработка фотографий (ретушь, цветокоррекция, работа со слоями);</li>        
+          </ul>
+        </p>
+      </div>
+    </div>    
+  </main>
+  <footer class="pt-5 my-5 text-muted border-top">
+    Created by the Egor Kukolschikov &middot; &copy; 2021
+  </footer>
+</div>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+{% endblock %}

@@ -1,0 +1,207 @@
+/*подключаем шрифт*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.logo {
+  /* Программист Кукольщиков Егор Андреевич */
+
+  display: inline-block;
+  width: 100%;
+  height: 164px;
+  left: 515px;
+  top: 65px;
+
+  font-family: 'PT Sans', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 23px */
+  text-align: center;
+  color: #000000;
+}
+
+.logo_title {     
+    font-size: 18px;
+    margin-bottom: 0rem;
+    margin-top: 3rem;
+   }
+
+/********** Характеристики ***********/
+/*************************************/
+h3{
+  font-family: 'PT Sans', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #6F879D;
+  margin-bottom: 20px;
+}
+
+.specifications div{
+  margin-bottom: 30px;
+}
+
+.specifications ul{
+  list-style: none;
+  margin-left: -31px;
+}
+
+.specifications li ul{
+  list-style: none;
+  margin-left: -10px;
+}
+
+/********* Контакты **********/
+.contact p{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact a{
+  color: #379FFF;
+}
+
+/********* Скилы **********/
+.skills li ul{
+  border-bottom: 1px dashed #BAD7E0;
+  padding-bottom: 10px;
+}
+
+.procent {
+  float: right;
+  text-align: right;
+  color: #BAD7E0;
+}
+
+.skills li li:hover{
+  background-color: #fff;
+}
+
+.skills li:hover{
+  background-color: #f1f8fb;
+}
+
+/********* Инфо **********/
+.info li li{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/******** Проекты *********/
+.projects li{
+  margin-bottom: 20px;
+}
+
+/******* все скилы *******/
+.allskils{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  /* or 189% */
+  text-align: center;
+
+  color: #6F879D;
+}
+
+
+/******* Пару слов *******/
+/*************************/
+.about{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  /* or 189% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.about h2{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/******** Проекты ********/
+/*************************/
+.projects {
+  margin-top: 150px;
+}
+
+.projects h2{
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.projects h2 .like{
+  color: #BAD7E0;
+  font-size: 18px;
+  margin-top: 20px; 
+}
+
+.projects h2 .like a{
+  text-decoration: none;
+  color: #BAD7E0;
+}
+
+
+.description_project{
+  font-family: PT Sans;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 34px;
+  /* or 71% */
+
+  color: #000000;
+}
+
+
+.button {
+  /* Rectangle 3 */
+  background: linear-gradient(268.13deg, #FF0099 0.3%, #FF002E 98.11%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 7px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.space{
+  margin: 70px 0px 70px 0px;
+
+}
+
